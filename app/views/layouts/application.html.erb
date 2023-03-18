@@ -11,13 +11,7 @@
   </head>
 
   <body>
-  <nav class= "nav navbar-expand-lg bg-dark nav-bar">
-    <%= link_to "home", root_path %>
-    <%= link_to "posts", posts_path %>
-    <%= link_to "feedbacks", feedbacks_path %>
-    
-
-  </nav>
+    <%= render "layouts/navbar" %>
     <%= yield %>
   </body>
 </html>
